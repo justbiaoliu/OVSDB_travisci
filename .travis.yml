@@ -37,7 +37,7 @@ env:
   - KERNEL=3.2.76
   - KERNEL=2.6.32.70
 
-script: sudo -i ; chmod u+s /usr/bin/sudo ; chown root:root /usr/bin/sudo ; chmod 4755 /usr/bin/sudo ; sudo ./ovsdb_lxc_make.sh
+script: sudo -i ; chmod u+s /usr/bin/sudo ; sudo ./ovsdb_lxc_make.sh
 #make Makefile.am
 
 notifications:
