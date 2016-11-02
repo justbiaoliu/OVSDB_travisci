@@ -14,9 +14,9 @@ addons:
 #before_install: sudo -i ; chmod u+s /usr/bin/sudo ; chown root:root /usr/bin/sudo ; chmod 4755 /usr/bin/sudo ; sudo ./.travis/prepare.sh
 
 before_script: #export PATH=$PATH:$HOME/bin
-  - mkdir build
-  - cd build
-  - cmake ..
+  #- mkdir build
+  #- cd build
+  #- cmake ..
 
 sudo: true
 
